@@ -29,8 +29,8 @@ final class NoMagicDeserializeRuleTest extends RuleTestCase
             [__DIR__ . '/TestFiles/NoMagicDeserializeRuleTestClassFileWithSerializableInterface.php'],
             [
                 ['Don\'t use interface Serializable', 6],
-                ['Don\'t use magic method __unserialize', 11],
-                ['Don\'t use magic method __wakeup', 15]
+                ['Don\'t use magic method __unserialize', 19],
+                ['Don\'t use magic method __wakeup', 23]
             ]
         );
     }

@@ -6,6 +6,14 @@ namespace FrankVanHest\PhpStanRulesNoMagic\Tests\NoMagicDeserializeRule\TestFile
 final class NoMagicDeserializeRuleTestClassFileWithSerializableInterface implements \Serializable
 {
     /**
+     * @return array<mixed>
+     */
+    public function __serialize(): array
+    {
+        return [];
+    }
+
+    /**
      * @param array<mixed> $data
      */
     public function __unserialize(array $data): void

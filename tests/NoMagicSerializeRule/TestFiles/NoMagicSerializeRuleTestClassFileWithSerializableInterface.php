@@ -21,6 +21,13 @@ final class NoMagicSerializeRuleTestClassFileWithSerializableInterface implement
         return [];
     }
 
+    /**
+     * @param array<mixed> $data
+     */
+    public function __unserialize(array $data): void
+    {
+    }
+
     public function foo(): string
     {
         return 'foo';
