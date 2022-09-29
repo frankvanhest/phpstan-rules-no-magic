@@ -1,0 +1,24 @@
+{
+  "source": {
+    "directories": [
+      "src"
+    ]
+  },
+  "logs": {
+    "text": "infection.log"
+  },
+  "mutators": {
+    "@default": true,
+    "GreaterThanOrEqualTo": {
+      "ignore": [
+        "FrankVanHest\\PhpStanRuleNoMagic\\NoMagicToStringRule::getNodeType"
+      ]
+    },
+    "InstanceOf_": {
+      "ignore": [
+        "FrankVanHest\\PhpStanRuleNoMagic\\NoMagicToStringRule::processNode"
+      ]
+    }
+  },
+  "initialTestsPhpOptions": "-d error_reporting=E_ALL"
+}

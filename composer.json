@@ -1,0 +1,38 @@
+{
+    "name": "frankvanhest/phpstan-rules-no-magic",
+    "description": "PHPStan rules inspired by roave/dont https://github.com/Roave/Dont",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank van Hest",
+            "email": "frank@frankvanhest.nl"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0 | ~8.0.0 | ~8.1.0",
+        "nikic/php-parser": "^v4.14",
+        "phpstan/phpstan": "^1.7"
+    },
+    "require-dev": {
+        "infection/infection": "^0.26",
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrankVanHest\\PhpStanRulesNoMagic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FrankVanHest\\PhpStanRulesNoMagic\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "infection/extension": true,
+            "infection/extension-installer": true
+        }
+    }
+}

@@ -1,0 +1,9 @@
+rules:
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicCallRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicCallStaticRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicCloneRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicDeserializeRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicGetRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicSerializeRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicSetRule
+    - FrankVanHest\PhpStanRulesNoMagic\NoMagicToStringRule
