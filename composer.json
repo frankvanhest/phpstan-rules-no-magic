@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "infection/infection": "^0.26",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^9.5.5",
         "roave/security-advisories": "dev-latest"
     },
     "autoload": {
