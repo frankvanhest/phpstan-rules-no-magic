@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "php": "~7.4.0 | ~8.0.0 | ~8.1.0",
-        "nikic/php-parser": "^v4.14",
-        "phpstan/phpstan": "^1.7"
+        "php": "~8.0.0 | ~8.1.0 | ~8.2.0",
+        "nikic/php-parser": "^v4.15",
+        "phpstan/phpstan": "^1.9"
     },
     "require-dev": {
         "infection/infection": "^0.26",
